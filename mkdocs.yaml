@@ -1,0 +1,8 @@
+site_name: "test-grpc-service"
+site_description: "test-grpc-service"
+
+nav:
+  - Introduction: index.md
+
+plugins:
+  - techdocs-core
