@@ -22,7 +22,7 @@ spec:
     spec:
       containers:
         - name: test-grpc-service
-          image: ghcr.io/spotify-portal-public-demo/test-grpc-service:latest # {"$imagepolicy": "flux-system:test-grpc-service"}
+          image: ghcr.io/spotify-portal-public-demo/test-grpc-service:main-676d9007-1745093011 # {"$imagepolicy": "flux-system:test-grpc-service"}
           imagePullPolicy: Always
           resources:
             requests:
